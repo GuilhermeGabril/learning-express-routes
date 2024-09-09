@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/userssytle.css">
+  <title>Usuários</title>
+</head>
+<body>
+
+  <ul>
+    <% users.forEach(user => { %>
+    <li>Usário:</li>
+     <li><%= user.username %></li>
+     <li>Senha:</li>
+     <li><%= user.password %></li>
+     <li></li>
+    <% }) %>
+  </ul>
+</body>
+</html>
