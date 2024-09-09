@@ -1,8 +1,6 @@
 const express = require('express')
 const path = require('node:path')
 
-// Código restante...
-
 const app = express()
 
 const storedUsers = []
